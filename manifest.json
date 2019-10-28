@@ -1,0 +1,30 @@
+{
+  "name" : "Tessellate",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "id" : "75ee2f4a",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  } ],
+  "uiEntryPoints" : [
+    {
+      "label" : "Diamonds",
+      "type" : "menu",
+      "commandId" : "tessellateDiamond"
+    },
+    {
+      "label" : "Hexagons",
+      "type" : "menu",
+      "commandId" : "tessellateHexagon"
+    }
+  ],
+  "version" : "0.0.1"
+}
