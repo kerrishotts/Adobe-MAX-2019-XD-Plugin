@@ -16,9 +16,9 @@
   } ],
   "uiEntryPoints" : [
     {
-      "label" : "Diamonds",
+      "label" : "Create Hexagon",
       "type" : "menu",
-      "commandId" : "tessellateDiamond"
+      "commandId" : "createHexagon"
     },
     {
       "label" : "Hexagons",
